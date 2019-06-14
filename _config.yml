@@ -1,1 +1,116 @@
 theme: jekyll-theme-leap-day
+<!DOCTYPE html> 
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> The Musical </title>
+
+</head>
+
+
+
+<body>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<div class="container"> 
+<h1 class="display-4"> The Musical Facemask </h1>
+<hr class="my-4">
+
+<h6> </h6>
+
+
+
+<div class="accordion" id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Using the instrument
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <strong>Who is the expected user? </strong>  <br> <br>
+
+		<strong> Expected use case:</strong> Stage performance. 
+		<strong> How is the  </strong> The instrument is played by biting down an
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          Building the instrument
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <strong> How is it built?
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Lessons Learned
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <strong> What lessons did I learn from making this instrument? What might I imp
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          Pictures and Figures
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion"
+		    </div>
+		  </div>
+		</div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+         Video Demo
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+           <iframe width="853" height="480" src=frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
